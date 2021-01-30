@@ -1,0 +1,172 @@
+﻿body {
+    font-family: "Lato", sans-serif;
+}
+
+
+header {
+    height: 20px;
+}
+
+main {
+}
+
+.main-head {
+    height: 150px;
+    background: #FFF;
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-form {
+        margin-top: 10%;
+    }
+
+    .register-form {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        margin-left: 40%;
+        //margin-top: -20%;
+    }
+
+    .sidenav {
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 57px;
+        left: 0;
+    }
+
+    .login-form {
+        margin-top: 20%;
+    }
+
+    .register-form {
+        margin-top: 0%;
+    }
+
+    r-form {
+        // margin-top:-30%;
+    }
+}
+
+
+.login-main-text {
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+    .login-main-text h2 {
+        font-weight: 300;
+    }
+
+.btn-black {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.navbar {
+    height: 57px;
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        margin-left: 40%;
+        margin-top: 0;
+    }
+
+    .login-form {
+        margin-top: 20%;
+    }
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.btnpad {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.img-h {
+    height: 550px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+.btnpad {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.img-h {
+    height: 550px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media(min-width:768px) {
+    .right-button {
+        float: right;
+        position: absolute;
+        right: 0px;
+        padding: 10px;
+    }
+}
